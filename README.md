@@ -15,3 +15,5 @@ Thank you!
 Example of Translation: 
 ![image](https://user-images.githubusercontent.com/79925931/235543170-8d7317a7-26f2-4f07-8570-1bb70a8c730f.png)
 
+
+I tested the audio for different files, the translate in every language, and the audio for the translated text in every language. I tested for functionality and speed. 
