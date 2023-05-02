@@ -2,10 +2,21 @@
 import pyttsx3
 import PyPDF2
 import googletrans
+from google.cloud import storage
 
 pdf_file = "example.pdf"
 # provide pdf file name in pdf_file 
 pdf = open(pdf_file, 'rb')
+
+# GOOGLE CLOUD UPLOAD
+storage_client = storage.Client.from_service_account_json(
+        'ec530-final-6f633954b3d3.json')
+
+    #print(buckets = list(storage_client.list_buckets())
+
+bucket = storage_client.get_bucket('ec530final')
+blob = bucket.blob('pdf_files')
+blob.upload_from_filename(r'example.pdf')
 
 # accessing pdf contents 
 contents = PyPDF2.PdfFileReader(pdf)
