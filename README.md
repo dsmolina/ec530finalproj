@@ -22,7 +22,7 @@ The use cases for this app are for people that cannot understand/read english an
 I also tried to have this upload to MongoDB but was not successful so I decided to have it upload to a Google Cloud bucket so the files are uploaded to Google Cloud rather than a SQL database. The audio files are also downloaded to the user's local drive. For this, I had to use a Google Cloud API. I did not include the .json key file do to security concerns but here is a screenshot of the file uploaded to the bucket via the app.py program. 
 ![image](https://user-images.githubusercontent.com/79925931/235684976-c15d794e-3b2c-40f3-8887-518ae1a1aa49.png)
 
-Please see the demo to see the translation in action. Also, the audio functionality, it just plays out loud immediately. Also, please see the google cloud bucket at the end of the demo that shows the example pdf was uploaded. 
+Please see the demo to see the translation in action. Also, the audio functionality, it just plays out loud immediately. Also, please see the google cloud bucket at the end of the demo that shows the example pdf was uploaded. Demo link: https://drive.google.com/file/d/1DlUqPQDUgLMq7euv2FXeetqH5PDBMFGn/view?usp=sharing 
 
 
 Thank you!
